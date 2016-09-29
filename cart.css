@@ -1,22 +1,44 @@
+
+
 hr{
   width: 150px;
 }
 
 h1{
-  text-align: center;
+/*  text-align: center;*/
   font-family: 'Fjalla One', sans-serif;
   font-size: 40px;
+  border-bottom: solid 1px black;
+  padding: 20px;
+  margin: 0;
+  background-color: white;
+}
+
+img {
+  width: 180px;
+  float: right;
+}
+
+h3 {
+  padding: 10px 20px;
+  border-bottom: solid 1px black;
+  margin: 0;
+  background-color: white;
 }
 
 body {
   width: 80%;
-  height: 100%;
-  border: solid 3px black;
+  height: /100%;
+  border: dotted 1px black;
   margin: 0 auto;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
+<<<<<<< HEAD
   background: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Buxus_sempervirens_foliage_1.jpg');
   background-image:cover;
+=======
+  background-image: url("leaf.jpg");
+>>>>>>> a26bb6ee537744cc685e731f4516c969d9031790
 }
 
 .container{
@@ -27,7 +49,7 @@ body {
 }
 
 input[type=text], select {
-    width: 93%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -36,13 +58,8 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
-
-#email, select {
-    width: 96%;
-}
-
 input[type=int], select {
-    width: 90%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -53,7 +70,7 @@ input[type=int], select {
 
 button {
     width: 100%;
-    background-color: #668cff;
+    background-color: #6699ff;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -65,15 +82,43 @@ button {
 }
 
 button:hover {
-    background-color: #4d79ff;
+    background-color: #e600ac;
 }
 
 input[type=checkbox] {
   display: inline-block;
   cursor: pointer;
+  -webkit-transform: scale(2);
 }
+
 
 p {
   display: inline-block;
   padding: 0 50px 0 10px;
+}
+
+span {
+  color: #e600ac;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  img {
+    width: 75px;
+  }
+
+  body {
+    font-size: 17px;
+  }
+
+  button {
+    font-size: 17px
+  }
+
+  button:hover {
+    background-color: #e600ac;
+}
 }

@@ -129,5 +129,9 @@ button {
 }
 
 button:hover {
+<<<<<<< HEAD
     background-color: black;
+=======
+    background-color: #004d00;
+>>>>>>> a26bb6ee537744cc685e731f4516c969d9031790
 }
