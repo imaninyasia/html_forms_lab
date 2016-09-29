@@ -15,12 +15,15 @@ body {
   margin: 0 auto;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Buxus_sempervirens_foliage_1.jpg');
+  background-image:cover;
 }
 
 .container{
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  border: solid white 5px;
 }
 
 input[type=text], select {
